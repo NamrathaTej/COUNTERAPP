@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid var(--dark-grey);
+  padding: 0.5rem;
+  background-color: var(--color-sec);
+  color: var(--white);
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 40px;
+}
+
+.buttons button {
+  padding: 0.5rem;
+  margin: 2rem;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+button.subtract {
+  background-color: rgb(125, 231, 164);
+}
+
+button.reset {
+  background-color: whitesmoke;
+}
+
+button.Add {
+  background-color: rgb(125, 150, 231);
+}
